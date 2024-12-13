@@ -33,11 +33,11 @@ public class Config {
     public static void addDefaultConfig() {
 
         //noinspection ResultOfMethodCallIgnored
-        new File("plugins/BedWars1058/Addons/TeamSelector").mkdirs();
+        new File("plugins/BedWars2023/Addons/TeamSelector").mkdirs();
 
-        config = new ConfigManager(Main.plugin, "config", "plugins/BedWars1058/Addons/TeamSelector");
+        config = new ConfigManager(Main.plugin, "config", "plugins/BedWars2023/Addons/TeamSelector");
         YamlConfiguration yml = config.getYml();
-        yml.options().header("Team Selector Add-on for BedWars1058 Mini-game.\n\nDocumentation:\n" +
+        yml.options().header("Team Selector Add-on for BedWars2023 Mini-game.\n\nDocumentation:\n" +
                 SELECTOR_ITEM_STACK_MATERIAL + ": WOOL - The material you want the team-selector item be.\n" +
                 SELECTOR_SLOT + ": 0 - The slot where to put the item. Set it to -1 to assign the first empty slot.\n" +
                 GIVE_SELECTOR_SELECTED_TEAM_COLOR + ": true - True if you the selector to have the selected team's color.\n" +
