@@ -1,7 +1,5 @@
-package com.andrei1058.bedwars.teamselector.listeners;
+package com.tomkeuper.bedwars.teamselector.listeners;
 
-import com.andrei1058.bedwars.teamselector.Main;
-import com.andrei1058.bedwars.teamselector.teamselector.TeamSelectorGUI;
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -9,6 +7,9 @@ import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
+
+import com.tomkeuper.bedwars.teamselector.Main;
+import com.tomkeuper.bedwars.teamselector.teamselector.TeamSelectorGUI;
 
 public class PlayerInteractListener implements Listener {
 

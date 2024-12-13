@@ -1,7 +1,8 @@
-package com.andrei1058.bedwars.teamselector.configuration;
+package com.tomkeuper.bedwars.teamselector.configuration;
 
-import com.andrei1058.bedwars.api.language.Language;
 import org.jetbrains.annotations.NotNull;
+
+import com.tomkeuper.bedwars.api.language.Language;
 
 import java.util.Arrays;
 import java.util.Collections;

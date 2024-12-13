@@ -1,4 +1,4 @@
-package com.andrei1058.bedwars.teamselector.api.events;
+package com.tomkeuper.bedwars.teamselector.api.events;
 
 import lombok.Getter;
 import org.bukkit.entity.Player;

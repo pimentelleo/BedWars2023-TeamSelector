@@ -1,9 +1,10 @@
-package com.andrei1058.bedwars.teamselector.api;
+package com.tomkeuper.bedwars.teamselector.api;
 
-import com.andrei1058.bedwars.api.arena.IArena;
-import com.andrei1058.bedwars.api.arena.team.ITeam;
-import com.andrei1058.bedwars.teamselector.Main;
 import org.bukkit.entity.Player;
+
+import com.tomkeuper.bedwars.api.arena.IArena;
+import com.tomkeuper.bedwars.api.arena.team.ITeam;
+import com.tomkeuper.bedwars.teamselector.Main;
 
 public class TeamSelector implements TeamSelectorAPI {
 

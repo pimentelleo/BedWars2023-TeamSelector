@@ -1,7 +1,8 @@
-package com.andrei1058.bedwars.teamselector.api;
+package com.tomkeuper.bedwars.teamselector.api;
 
-import com.andrei1058.bedwars.api.arena.team.ITeam;
 import org.bukkit.entity.Player;
+
+import com.tomkeuper.bedwars.api.arena.team.ITeam;
 
 @SuppressWarnings("unused")
 public interface TeamSelectorAPI {

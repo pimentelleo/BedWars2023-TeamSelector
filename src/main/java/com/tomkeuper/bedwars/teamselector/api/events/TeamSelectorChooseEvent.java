@@ -1,12 +1,13 @@
-package com.andrei1058.bedwars.teamselector.api.events;
+package com.tomkeuper.bedwars.teamselector.api.events;
 
-import com.andrei1058.bedwars.api.arena.IArena;
-import com.andrei1058.bedwars.api.arena.team.ITeam;
 import lombok.Getter;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 import org.jetbrains.annotations.NotNull;
+
+import com.tomkeuper.bedwars.api.arena.IArena;
+import com.tomkeuper.bedwars.api.arena.team.ITeam;
 
 @SuppressWarnings("unused")
 @Getter

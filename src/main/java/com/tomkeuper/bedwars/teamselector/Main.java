@@ -1,14 +1,5 @@
-package com.andrei1058.bedwars.teamselector;
+package com.tomkeuper.bedwars.teamselector;
 
-import com.andrei1058.bedwars.api.BedWars;
-import com.andrei1058.bedwars.teamselector.api.TeamSelector;
-import com.andrei1058.bedwars.teamselector.api.TeamSelectorAPI;
-import com.andrei1058.bedwars.teamselector.configuration.Config;
-import com.andrei1058.bedwars.teamselector.configuration.Messages;
-import com.andrei1058.bedwars.teamselector.listeners.ArenaListener;
-import com.andrei1058.bedwars.teamselector.listeners.InventoryListener;
-import com.andrei1058.bedwars.teamselector.listeners.PlayerInteractListener;
-import com.andrei1058.bedwars.teamselector.listeners.SelectorGuiUpdateListener;
 import org.bstats.bukkit.Metrics;
 import org.bstats.charts.SimplePie;
 import org.bukkit.Bukkit;
@@ -17,6 +8,16 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.ServicePriority;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
+
+import com.tomkeuper.bedwars.api.BedWars;
+import com.tomkeuper.bedwars.teamselector.api.TeamSelector;
+import com.tomkeuper.bedwars.teamselector.api.TeamSelectorAPI;
+import com.tomkeuper.bedwars.teamselector.configuration.Config;
+import com.tomkeuper.bedwars.teamselector.configuration.Messages;
+import com.tomkeuper.bedwars.teamselector.listeners.ArenaListener;
+import com.tomkeuper.bedwars.teamselector.listeners.InventoryListener;
+import com.tomkeuper.bedwars.teamselector.listeners.PlayerInteractListener;
+import com.tomkeuper.bedwars.teamselector.listeners.SelectorGuiUpdateListener;
 
 public class Main extends JavaPlugin {
 
@@ -38,22 +39,22 @@ public class Main extends JavaPlugin {
         plugin = this;
 
         //Disable if plugin not found
-        if (Bukkit.getPluginManager().getPlugin("BedWars1058") == null) {
-            getLogger().severe("BedWars1058 was not found. Disabling...");
+        if (Bukkit.getPluginManager().getPlugin("BedWars2023") == null) {
+            getLogger().severe("BedWars2023 was not found. Disabling...");
             Bukkit.getPluginManager().disablePlugin(this);
             return;
         }
 
         var registration = Bukkit.getServicesManager().getRegistration(BedWars.class);
         if (null == registration) {
-            getLogger().severe("Cannot hook into BedWars1058.");
+            getLogger().severe("Cannot hook into BedWars2023.");
             Bukkit.getPluginManager().disablePlugin(plugin);
             return;
         }
 
 
         bw = registration.getProvider();
-        getLogger().info("Hooked into BedWars1058!");
+        getLogger().info("Hooked into BedWars2023!");
 
         // register team selector API
         Bukkit.getServicesManager().register(TeamSelectorAPI.class, new TeamSelector(), this, ServicePriority.Normal);

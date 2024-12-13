@@ -1,10 +1,11 @@
-package com.andrei1058.bedwars.teamselector.teamselector;
+package com.tomkeuper.bedwars.teamselector.teamselector;
 
-import com.andrei1058.bedwars.api.arena.IArena;
-import com.andrei1058.bedwars.api.arena.team.ITeam;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+
+import com.tomkeuper.bedwars.api.arena.IArena;
+import com.tomkeuper.bedwars.api.arena.team.ITeam;
 
 import java.util.Collections;
 import java.util.LinkedHashSet;

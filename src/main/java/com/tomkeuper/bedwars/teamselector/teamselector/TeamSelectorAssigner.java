@@ -1,13 +1,14 @@
-package com.andrei1058.bedwars.teamselector.teamselector;
+package com.tomkeuper.bedwars.teamselector.teamselector;
 
-import com.andrei1058.bedwars.api.arena.IArena;
-import com.andrei1058.bedwars.api.arena.team.ITeam;
-import com.andrei1058.bedwars.api.arena.team.ITeamAssigner;
-import com.andrei1058.bedwars.api.events.gameplay.TeamAssignEvent;
-import com.andrei1058.bedwars.teamselector.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
+
+import com.tomkeuper.bedwars.api.arena.IArena;
+import com.tomkeuper.bedwars.api.arena.team.ITeam;
+import com.tomkeuper.bedwars.api.arena.team.ITeamAssigner;
+import com.tomkeuper.bedwars.api.events.gameplay.TeamAssignEvent;
+import com.tomkeuper.bedwars.teamselector.Main;
 
 import java.util.*;
 import java.util.stream.Collectors;

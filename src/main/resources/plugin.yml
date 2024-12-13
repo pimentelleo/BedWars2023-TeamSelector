@@ -1,8 +1,8 @@
 name: BedWars1058-TeamSelector
-author: andrei1058
+author: batmann4bot
 version: ${project.version}
-description: Team Selector Add-on for BedWars1058 Minigame.
+description: Team Selector Add-on for BedWars2023 Minigame.
 website: https://andrei1058.dev
-main: com.andrei1058.bedwars.teamselector.Main
-softdepend: [BedWars1058]
+main: com.tomkeuper.bedwars.teamselector.Main
+softdepend: [BedWars2023]
 api-version: '1.13'

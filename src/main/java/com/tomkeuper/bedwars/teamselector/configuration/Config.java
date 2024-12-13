@@ -1,10 +1,11 @@
-package com.andrei1058.bedwars.teamselector.configuration;
+package com.tomkeuper.bedwars.teamselector.configuration;
 
-import com.andrei1058.bedwars.api.configuration.ConfigManager;
-import com.andrei1058.bedwars.teamselector.Main;
 import org.bukkit.Sound;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
+
+import com.tomkeuper.bedwars.api.configuration.ConfigManager;
+import com.tomkeuper.bedwars.teamselector.Main;
 
 import java.io.File;
 import java.util.logging.Level;
